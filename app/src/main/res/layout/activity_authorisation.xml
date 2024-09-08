@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/white" android:orientation="vertical" tools:context=".MainActivity">
     <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="75dp" android:layout_marginLeft="40dp">
         <ImageView android:id="@+id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/v3"/>
-        <TextView android:layout_marginLeft="28dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/purpur" android:text="Регистрация" android:textSize="36dp"/>
+        <TextView android:textStyle="bold" android:layout_marginLeft="28dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/purpur" android:text="Регистрация" android:textSize="36dp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -53,9 +53,9 @@
         <Button
             android:layout_width="350dp"
             android:layout_height="70dp"
-            android:layout_marginLeft="30dp"
+            android:layout_gravity="center_horizontal"
             android:layout_marginTop="200dp"
-            android:background="@drawable/backforbutton"
+            android:background="@drawable/corners"
             android:backgroundTint="@color/purple_blue"
             android:gravity="center"
             android:onClick="GoTo"

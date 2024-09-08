@@ -6,17 +6,20 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
-        android:label="Расчёт стоимости квартиры"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@drawable/v3"
+        android:label="PriceAppartment"
+        android:roundIcon="@drawable/v3"
         android:supportsRtl="true"
         android:theme="@style/Theme.MironovIV_PR31_03"
         tools:targetApi="31">
         <activity
+            android:name=".Results"
+            android:exported="false" />
+        <activity
             android:name=".Counting"
             android:exported="false" />
         <activity
-            android:name=".Authorization"
+            android:name=".Authorisation"
             android:exported="true"
             android:label="PriceAppartment"
             android:theme="@style/Theme.MironovIV_PR31_03">
